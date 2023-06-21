@@ -1,4 +1,4 @@
-// import "./App.css"; "Random"
+import "./App.css"; "Random"
 import { getDataAPI } from "./getDataAPI";
 import UserTable from "./components/UserTable"
 import Pagination from "./components/Pagination"
