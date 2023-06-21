@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import { getDataAPI } from "./getDataAPI";
 import UserTable from "./components/UserTable"
 import Pagination from "./components/Pagination"
