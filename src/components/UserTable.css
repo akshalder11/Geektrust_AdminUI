@@ -1,0 +1,60 @@
+.rowSelected, .rowSelected input {
+    background-color: #fff2f2;
+    color: #E20044;
+}
+
+.editDisabled {
+    margin: 15px 0 15px 0;
+    border: none;
+    width: 100%;
+    cursor:default;
+    background: transparent;
+}
+
+.editDisabled:focus {
+    outline : none;
+}
+
+.editEnabled {
+    color: #E20044;
+    margin: 15px 0 15px 0;
+    border: none;
+    width: 100%;
+    cursor: text;
+    background: transparent;
+}
+
+.editEnabled:focus {
+    outline : none;
+}
+
+.iconColumn {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.actionBtn .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    background-color: #FFEBEB;
+    color: #E20044;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.actionBtn:hover .icon:hover {
+    background-color: #E20044;
+    color: #fff;
+    box-shadow: -3px 26px 11px rgba(226, 0, 68, 0.03),
+        -2px 15px 9px rgba(226, 0, 68, 0.09),
+        -1px 7px 7px rgba(226, 0, 68, 0.14),
+        0px 2px 4px rgba(226, 0, 68, 0.17),
+        0px 0px 0px rgba(226, 0, 68, 0.17);
+}

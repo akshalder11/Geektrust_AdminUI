@@ -1,0 +1,37 @@
+.pagnationComponent {
+    margin: 30px 0;
+}
+
+.pageButtons {
+    margin: 0 10px;
+    padding: 8px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #FFEBEB;
+    color: #E20044;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pageButtons:hover {
+    box-shadow: -2px 43px 12px rgba(236, 218, 218, 0.01),
+        -1px 27px 11px rgba(236, 218, 218, 0.11),
+        -1px 15px 9px rgba(236, 218, 218, 0.38),
+        0px 7px 7px rgba(236, 218, 218, 0.64),
+        0px 2px 4px rgba(236, 218, 218, 0.74),
+        0px 0px 0px rgba(236, 218, 218, 0.75);
+}
+
+.pageButtons:focus {
+    background-color: #E20044;
+    color: #fff;
+    box-shadow: -3px 26px 11px rgba(226, 0, 68, 0.03),
+        -2px 15px 9px rgba(226, 0, 68, 0.09),
+        -1px 7px 7px rgba(226, 0, 68, 0.14),
+        0px 2px 4px rgba(226, 0, 68, 0.17),
+        0px 0px 0px rgba(226, 0, 68, 0.17);
+}

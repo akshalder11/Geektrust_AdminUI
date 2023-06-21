@@ -1,0 +1,128 @@
+/* Font Faces */
+@font-face {
+  font-family: Vi_BD;
+  src: url(./fonts/Vi-Bold.ttf);
+}
+
+@font-face {
+  font-family: Vi_HV;
+  src: url(./fonts/Vi-Heavy.ttf);
+}
+
+@font-face {
+  font-family: Vi_LT;
+  src: url(./fonts/Vi-Light.ttf);
+}
+
+@font-face {
+  font-family: Vi_MD;
+  src: url(./fonts/Vi-Medium.ttf);
+}
+
+@font-face {
+  font-family: Vi_RG;
+  src: url(./fonts/Vi-Regular.ttf);
+}
+
+/* Design start */
+* {
+  font-family: Vi_MD;
+  font-size: 18px;
+  color: #414141;
+  /* letter-spacing: .03rem; */
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchContainer {
+  width: 65vw;
+
+}
+
+.searchIcon {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #E20044;
+}
+
+.searchBar {
+  height: 60px;
+  width: 70%;
+  margin: 20px;
+  font-size: 30px;
+  font-family: Vi_MD;
+  border-radius: 10px;
+  border: none;
+  color: #E20044;
+  background-color: #FFEBEB;
+  transition: 0.3s;
+}
+
+.searchBar::placeholder {
+  color: #E20044;
+}
+
+.searchBar:focus {
+  outline: none;
+  background-color: #E20044;
+  color: #fff;
+  box-shadow: -3px 26px 11px rgba(226, 0, 68, 0.03),
+    -2px 15px 9px rgba(226, 0, 68, 0.09),
+    -1px 7px 7px rgba(226, 0, 68, 0.14),
+    0px 2px 4px rgba(226, 0, 68, 0.17),
+    0px 0px 0px rgba(226, 0, 68, 0.17);
+}
+
+.searchBar:hover {
+  box-shadow: -2px 43px 12px rgba(236, 218, 218, 0.01),
+        -1px 27px 11px rgba(236, 218, 218, 0.11),
+        -1px 15px 9px rgba(236, 218, 218, 0.38),
+        0px 7px 7px rgba(236, 218, 218, 0.64),
+        0px 2px 4px rgba(236, 218, 218, 0.74),
+        0px 0px 0px rgba(236, 218, 218, 0.75);
+}
+
+.tableDesign {
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+}
+
+.tableHead {
+  height: 50px;
+}
+
+.tableHeadColumn {
+  font-family: Vi_BD;
+  font-size: 22px;
+  color: #E20044;
+}
+
+.deleteSelectedBtn {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #E20044;
+  color: #fff;
+  box-shadow: -3px 26px 11px rgba(226, 0, 68, 0.03),
+    -2px 15px 9px rgba(226, 0, 68, 0.09),
+    -1px 7px 7px rgba(226, 0, 68, 0.14),
+    0px 2px 4px rgba(226, 0, 68, 0.17),
+    0px 0px 0px rgba(226, 0, 68, 0.17);
+}
+
+.deleteSelectedBtn:active {
+  background-color: #99002e;
+  color: #fff;
+}
