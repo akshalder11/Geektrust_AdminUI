@@ -100,6 +100,7 @@ export default function App() {
       bufferSearch[i].email = email.current.value;
       bufferSearch[i].role = role.current.value;
       setSaveToggleHandle((prevState) => !prevState);
+      setSearchResult(bufferSearch);
     }
 
     const buffer = userData;

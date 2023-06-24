@@ -35,3 +35,11 @@
         0px 2px 4px rgba(226, 0, 68, 0.17),
         0px 0px 0px rgba(226, 0, 68, 0.17);
 }
+
+.pageButtons i {
+    color : #E20044;
+}
+
+.pageButtons:focus i {
+    color : #fff;
+}
