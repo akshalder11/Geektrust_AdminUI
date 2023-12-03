@@ -153,10 +153,13 @@ export default function App() {
 
   //Search Data
   const searchData = (val, buffer) => {
+    // console.log(val)
+    let trimmedVal = val.replace(/ /g,'')
+    // console.log(trimmedVal)
     setCurrentPage(1);
-    let result = buffer.filter((item) => item.name.toLowerCase().includes(val.toLowerCase()) ||
-      item.email.toLowerCase().includes(val.toLowerCase()) ||
-      item.role.toLowerCase().includes(val.toLowerCase()));
+    let result = buffer.filter((item) => item.name.toLowerCase().includes(trimmedVal.toLowerCase()) ||
+      item.email.toLowerCase().includes(trimmedVal.toLowerCase()) ||
+      item.role.toLowerCase().includes(trimmedVal.toLowerCase()));
     setSearchResult(result);
   }
 
